@@ -1,0 +1,44 @@
+body {
+    background-color: grey;
+}
+
+
+#mainCont {
+    background-color: grey;
+    display: flex;
+    padding: 5px;
+}
+
+#mainCont > div {
+    flex: 1;
+}
+
+#origin {
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+}
+
+#modified {
+    background-color: pink;
+    padding: 10px;
+    margin: 10px;
+}
+
+.imageHolder {
+    background-color: Orange;
+    padding: 10px;
+    margin: 5px;
+}
+
+canvas {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
